@@ -87,3 +87,6 @@ def check(password: str):
         st.markdown(f'<div class="warning-box">🔵 Password Strength: {strength_text}</div>',unsafe_allow_html=True)
 if passw:
     check(passw)
+
+
+st.markdown('Made with ❤️ by Aiman Khan')
